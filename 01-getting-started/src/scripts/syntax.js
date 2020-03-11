@@ -1,5 +1,5 @@
-// By Khush Brar
-// COMP 100C
+// Khush Brar 20200310
+// Comp 100C
 
 
 // define attributes / variables
