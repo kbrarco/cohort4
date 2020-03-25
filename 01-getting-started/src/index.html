@@ -1,6 +1,6 @@
 <!--
 
-    Insporation drawn from: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm#about
+    Inspiration drawn from: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm#about
 
  -->
 
@@ -97,7 +97,54 @@
         <input id="idNumber" type="number"> is a <span id="idNumberSize">unknown</span> number?
         <p id="idNumberSizexx"></p>
     </div>
+    
+<!--                    Start of Calculator                                         -->
+    
+    <div id="calculator" class="calculator">
+        <h1>Our Calculator... yes....</h1>
+        <p>Your First Number</p>
+        <input type="text" id="number1">
+        <br><br>
+        <p>Your Second Number</p>
+        <input type="text" id="number2" >
+        <br><br>
+        <p>Choose Your Operation</p>
+        <br>
+        <div id="operators">
+            <input type="radio" id="sum" >
+            <label for="sum">ADD</label>
+            <input type="radio" id="subtract">
+            <label for="subtract">SUBTRACT</label>
+            <input type="radio" id="multiply">
+            <label for="multiply">MULTIPLY</label>
+            <input type="radio" id="divide">
+            <label for="divide">DIVIDE</label><br>
+        </div>
+        <br><br>
+        <button
+          id="calculate-button"
+        >
+          Calculate
+        </button>
+        <br><br>
+        <div id="theAnswer">What's it gonna be....</div>
+        <br><br>
+    </div>
+    <br><br><br><br>
+    
+<!--    END of Calculator                      -->
 
+<!--    START of Tax Calculator                -->
+    <div id="tac-calculator">
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
@@ -111,7 +158,6 @@
         </div>
         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
     </footer>
-
 
     <script type="module" src="./scripts/main.js"></script>
     
