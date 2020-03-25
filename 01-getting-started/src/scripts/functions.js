@@ -24,10 +24,8 @@ const functions = {
         console.log(`'hey now' from operate()`);
         if(document.getElementById('sum').checked) {
             calculated = functions.add(number1, number2);
-            console.log(calculated);
             return calculated;
         }else if (document.getElementById('subtract').checked) {
-            console.log(calculated);
             calculated = functions.subtract(number1, number2);
             return calculated;
         }else if (document.getElementById('multiply').checked) {
@@ -44,3 +42,4 @@ const functions = {
     };
 
 export default functions;
+

@@ -110,16 +110,16 @@
         <br><br>
         <p>Choose Your Operation</p>
         <br>
-        <div id="operators">
-            <input type="radio" id="sum" >
-            <label for="sum">ADD</label>
-            <input type="radio" id="subtract">
-            <label for="subtract">SUBTRACT</label>
-            <input type="radio" id="multiply">
-            <label for="multiply">MULTIPLY</label>
-            <input type="radio" id="divide">
+        <form>
+            <input type="radio" id="sum" value="sum" name="operation">
+            <label for="sum">ADD</label><br>
+            <input type="radio" id="subtract" value="subtract" name="operation">
+            <label for="subtract">SUBTRACT</label><br>
+            <input type="radio" id="multiply" value="multiply" name="operation">
+            <label for="multiply">MULTIPLY</label><br>
+            <input type="radio" id="divide" value="divide" name="operation">
             <label for="divide">DIVIDE</label><br>
-        </div>
+        </form>
         <br><br>
         <button
           id="calculate-button"
@@ -127,7 +127,7 @@
           Calculate
         </button>
         <br><br>
-        <div id="theAnswer">What's it gonna be....</div>
+        <h1 id="theAnswer">What's it gonna be....</h1>
         <br><br>
     </div>
     <br><br><br><br>
@@ -135,11 +135,13 @@
 <!--    END of Calculator                      -->
 
 <!--    START of Tax Calculator                -->
-    <div id="tac-calculator">
-    
+    <div id="tax-calculator" class="tax-calculator">
+        <h1>Canadian Taxes</h1>
+        <br><br>
+        
     </div>
     
-    k
+    
     
     
     
