@@ -1,5 +1,5 @@
 // Khush Brar
-// Comp 100C
+// COMP 100C
 
 const khushFunctions = {
 

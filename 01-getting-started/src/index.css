@@ -1,10 +1,13 @@
+.calculator{
+    text-align: center;
+}
 body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
     font-family: "Lato", sans-serif;
 }
 
@@ -17,7 +20,6 @@ html {
 
 
 /* Create a Parallax Effect */
-
 .bgimg-1,
 .bgimg-2 {
     background-attachment: fixed;

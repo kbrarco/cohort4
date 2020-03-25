@@ -1,4 +1,5 @@
-
+// Khush Brar
+// COMP 100C
 const functions = {
 
     size: (num) => {
@@ -8,18 +9,38 @@ const functions = {
         return "extra large";
     },
 
-    add: (num1, num2) => {
-        return num1 + num2;
-    },
+    add: (number1, number2) => number1 + number2,
 
-    subtract: (num1, num2,) => {
-        return num1 - num2;
-    }
+    subtract: (number1, number2,) => number1 - number2,
 
+    multiply: (number1, number2) => number1 * number2,
 
-};
+    divide: (number1, number2) => number1 / number2,
+
+    operate: () => {
+        let calculated = 0;
+        let number1 = parseInt(document.getElementById('number1').value);
+        let number2 = parseInt(document.getElementById('number2').value);
+        console.log(`'hey now' from operate()`);
+        if(document.getElementById('sum').checked) {
+            calculated = functions.add(number1, number2);
+            console.log(calculated);
+            return calculated;
+        }else if (document.getElementById('subtract').checked) {
+            console.log(calculated);
+            calculated = functions.subtract(number1, number2);
+            return calculated;
+        }else if (document.getElementById('multiply').checked) {
+            calculated = functions.multiply(number1, number2);
+            return calculated;
+        }else if (document.getElementById('divide').checked) {
+            calculated = functions.divide(number1, number2);
+            return calculated;
+        }else {
+            console.log(`nothing happened`);
+            }
+        }
+
+    };
 
 export default functions;
-
-// I'm typing stuff!!! Weeeeeeeee!
-// Can anyone see this
