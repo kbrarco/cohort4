@@ -101,7 +101,7 @@
 <!--                    Start of Calculator                                         -->
     
     <div id="calculator" class="calculator">
-        <h1>Our Calculator... yes....</h1>
+        <h1>Our Calculator</h1>
         <p>Your First Number</p>
         <input type="text" id="number1">
         <br><br>
@@ -111,13 +111,13 @@
         <p>Choose Your Operation</p>
         <br>
         <form>
-            <input type="radio" id="sum" value="sum" name="operation">
+            <input type="radio" id="sum" name="operation">
             <label for="sum">ADD</label><br>
-            <input type="radio" id="subtract" value="subtract" name="operation">
+            <input type="radio" id="subtract" name="operation">
             <label for="subtract">SUBTRACT</label><br>
-            <input type="radio" id="multiply" value="multiply" name="operation">
+            <input type="radio" id="multiply" name="operation">
             <label for="multiply">MULTIPLY</label><br>
-            <input type="radio" id="divide" value="divide" name="operation">
+            <input type="radio" id="divide" name="operation">
             <label for="divide">DIVIDE</label><br>
         </form>
         <br><br>
@@ -127,25 +127,63 @@
           Calculate
         </button>
         <br><br>
-        <h1 id="theAnswer">What's it gonna be....</h1>
+        <h2 id="theAnswer">Your answer will display here. What's it gonna be...</h2>
         <br><br>
     </div>
     <br><br><br><br>
     
-<!--    END of Calculator                      -->
+<!--                                         END of Calculator                      -->
 
 <!--    START of Tax Calculator                -->
     <div id="tax-calculator" class="tax-calculator">
         <h1>Canadian Taxes</h1>
         <br><br>
+        <p>Enter Your Net Income</p>
+        <input type="text" id="netIncome">
+        <br><br><br>
+        <button
+          id="calculate-tax"
+        >
+            Calculate Tax
+        </button>
+        <br><br>
+        <h3 id="taxAnswer">Tax amount will display here</h3>
+        <br><br>
+    </div>
+    <br><br><br><br>
+<!--                                         END of Tax Calculator                  -->
+
+
+<!--       START                   Working With Arrays                                   -->
+    
+    <div id="working-with-arrays" class="working-with-arrays">
+        <h1>Working with Arrays</h1><br><br>
+        <input type="text" id="userNumber"><br><br>
+        <button id="Add">Add</button>
+        <button id="Show">Show</button>
+        <button id="Total">Total</button>
+        <button id="Clear">Clear</button>
+        <br><br><br>
+        <h3 id="array-message">Message will display here</h3>
+        <br><br><br>
         
     </div>
     
+<!--       END                   Working With Arrays                                   -->
     
+<!--        START                  Working With Dictionaries                       -->
     
+    <div id="working-with-dictionaries" class="working-with-dictionaries">
+        <h1>Working with Dictionaries</h1><br><br>
+        <input type="text" id="lookup"><br><br>
+        <button id="lookup-button">Lookup</button>
+        <br><br><br>
+        <h3 id="lookup-message">Lookup will display here</h3>
+        <br><br><br>
+        
+    </div>
     
-    
-    
+    <!--        END                  Working With Dictionaries                       -->
     
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">

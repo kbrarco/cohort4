@@ -1,4 +1,7 @@
 import functions from './functions'
+import provinces from './functions'
+import goodArray from './functions'
+
 
 test('Check the sizes', () => {
     expect(functions.size(-1)).toBe("small"); // Consider the edge cases
@@ -15,5 +18,6 @@ test('Does that add function work?', () => {
     expect(functions.add(101,202)).toBe(303);
 });
 
-
-test()
+test('Does lookup work?', () => {
+    ;
+});
