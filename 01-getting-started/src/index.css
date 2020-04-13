@@ -3,6 +3,8 @@
 .tax-calculator,
 .calculator{
     text-align: center;
+    display: flow;
+
 
 }
 body,
