@@ -1,0 +1,133 @@
+echo<!--
+
+    Inspiration drawn from: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm#about
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>KhushApp</title>
+</head>
+
+<script type="es6" src="scripts/syntax.js"></script>
+<body>
+    
+<!--                    Start of Calculator                                         -->
+    
+    <div id="calculator" class="calculator">
+        <h1>Our Calculator</h1>
+        <p>Your First Number</p>
+        <input type="text" id="number1">
+        <br><br>
+        <p>Your Second Number</p>
+        <input type="text" id="number2" >
+        <br><br>
+        <p>Choose Your Operation</p>
+        <br>
+        <form>
+            <input type="radio" id="sum" name="operation">
+            <label for="sum">ADD</label><br>
+            <input type="radio" id="subtract" name="operation">
+            <label for="subtract">SUBTRACT</label><br>
+            <input type="radio" id="multiply" name="operation">
+            <label for="multiply">MULTIPLY</label><br>
+            <input type="radio" id="divide" name="operation">
+            <label for="divide">DIVIDE</label><br>
+        </form>
+        <br><br>
+        <button
+          id="calculate-button"
+        >
+          Calculate
+        </button>
+        <br><br>
+        <h2 id="theAnswer">Your answer will display here. What's it gonna be...</h2>
+        <br><br>
+    </div>
+    <br><br><br><br>
+    
+<!--                                         END of Calculator                      -->
+
+<!--    START of Tax Calculator                -->
+    <div id="tax-calculator" class="tax-calculator">
+        <h1>Canadian Taxes</h1>
+        <br><br>
+        <p>Enter Your Net Income</p>
+        <input type="text" id="netIncome">
+        <br><br><br>
+        <button
+          id="calculate-tax"
+        >
+            Calculate Tax
+        </button>
+        <br><br>
+        <h3 id="taxAnswer">Tax amount will display here</h3>
+        <br><br>
+    </div>
+    <br><br><br><br>
+<!--                                         END of Tax Calculator                  -->
+
+
+<!--       START                   Working With Arrays                                   -->
+    
+    <div id="working-with-arrays" class="working-with-arrays">
+        <h1>Working with Arrays</h1><br><br>
+        <input type="text" id="userNumber"><br><br>
+        <button id="Add">Add</button>
+        <button id="Show">Show</button>
+        <button id="Total">Total</button>
+        <button id="Clear">Clear</button>
+        <br><br><br>
+        <h3 id="array-message">Message will display here</h3>
+        <br><br><br>
+        
+    </div>
+    
+<!--       END                   Working With Arrays                                   -->
+    
+<!--        START                  Working With Dictionaries                       -->
+    
+    <div id="working-with-dictionaries" class="working-with-dictionaries">
+        <h1>Working with Dictionaries</h1><br><br>
+        <input type="text" id="lookup"><br><br>
+        <button id="lookup-button" class="lookup-button">Lookup</button>
+        <br><br><br>
+        <h3 id="lookup-message">Lookup will display here</h3>
+        <br><br><br>
+        
+    </div>
+    
+    <!--        END                                Working With Dictionaries                       -->
+    
+
+
+    <!--                                               Footer                                  -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+    <script type="module" src="./scripts/main.js"></script>
+
+</body>
+
+</html>

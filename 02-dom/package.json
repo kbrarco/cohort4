@@ -1,0 +1,50 @@
+{
+    "name": "khush-project",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "babel": "^6.23.0",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-scripts": "3.4.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test-react": "react-scripts test",
+        "eject": "react-scripts eject",
+        "test": "jest",
+        "testcov": "jest --coverage",
+        "test1": "jest src/01-getting-started",
+        "test1cov": "jest src/01-getting-started --coverage",
+        "testfile": "jest src/01-getting-started/scripts/lfsplay.test.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/core": "^7.9.0",
+        "jest": "^24.9.0",
+        "node-fetch": "^2.6.0",
+        "whatwg-fetch": "^3.0.0"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
